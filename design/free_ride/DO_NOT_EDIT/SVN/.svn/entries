@@ -1,0 +1,73 @@
+8
+
+dir
+0
+file:///D:/ride/design/free_ride
+file:///D:/ride/design/free_ride
+
+
+
+2007-07-27T00:47:47.905193Z
+0
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0e65c583-f91c-2240-bd8f-40955e884e3b
+
+CsvAnnotationReportGeneratorConfiguration
+dir
+
+GlobalVariableSet
+dir
+
+7.0.0.3184.version
+file
+1
+
+
+
+2015-07-10T03:11:36.142846Z
+de5b1859d88533dad753bc0846dbd979
+2015-07-10T03:11:36.634846Z
+1
+liuguoyan
+
+Word2007SpecificationGeneratorConfiguration
+dir
+
+PageStyleSheet
+dir
+
+DesignDocument
+dir
+
+HtmlPrototypeGeneratorConfiguration
+dir
+
+StyleSheet
+dir
+
+AnnotationFieldSet
+dir
+
+Master
+dir
+
+Page
+dir
+
+Word2000SpecificationGeneratorConfiguration
+dir
+
