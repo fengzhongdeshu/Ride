@@ -4,8 +4,8 @@ r_user
 id		#uid
 name		#姓名 
 nick		#昵称 def=(车夫|脚夫)
-head 		#头像
-cover		#个人主页
+img_head 		#头像
+img_cover		#个人主页
 phone		#电话
 addr		#所在地区,即province + city + county 的字符串,在地区表中获取
 province	#省/市
@@ -15,7 +15,7 @@ age 		#年龄 def=0
 gender 		#性别 def=1 (男)
 career  	#职业
 signature	#签名
-desc		#个人简介
+user_desc	#个人简介
 type		#用户类型(车夫|脚夫)
 member		#是否是会员(1|0)
 level		#用户级别(民工|白领|CEO|大佬|行业领头人,这里暂时按星级来计算)
@@ -27,13 +27,13 @@ car_amount	#拥有车辆数量(目前限制一人2辆,多了可以考虑会员机制)
 r_car
 -------------------------------------------------
 id		#车辆id
-o_uid		#所属车主
+own_uid		#所属车主
 brand		#品牌
 series		#系列(车辆系列)
 color 		#车辆颜色
 plate_number	#车牌号
 keyword		#搜索关键字(自定义搜索关键字，增加搜索命中率)
-desc		#车辆描述
+car_desc	#车辆描述
 load		#载重
 capacity	#载客量
 volume		#体积(货车时可能用到，单位立方)
@@ -70,6 +70,8 @@ status		#行驶单状态(有效|无效|过期|完成)
 surplus_load	#剩余载重
 surplus_capacity#剩余载客
 price		#价格(元)
+
+
 
 
 
