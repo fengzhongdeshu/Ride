@@ -4,8 +4,8 @@ r_user
 id		#uid
 name		#姓名 
 nick		#昵称 def=(车夫|脚夫)
-img_head 		#头像
-img_cover		#个人主页
+img_head 	#头像
+img_cover	#个人主页图片
 phone		#电话
 addr		#所在地区,即province + city + county 的字符串,在地区表中获取
 province	#省/市
