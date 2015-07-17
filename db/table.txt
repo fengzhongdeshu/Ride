@@ -28,23 +28,36 @@ r_car
 -------------------------------------------------
 id		#车辆id
 own_uid		#所属车主
+brand_id	#品牌id
+series_id	#系列id
 brand		#品牌
 series		#系列(车辆系列)
+brand_spell	#品牌拼音
+series_spell	#系列拼音
 color 		#车辆颜色
 plate_number	#车牌号
 keyword		#搜索关键字(自定义搜索关键字，增加搜索命中率)
 car_desc	#车辆描述
+car_type	#车辆类型(载客|载货)
 load		#载重
 capacity	#载客量
 volume		#体积(货车时可能用到，单位立方)
 length		#车长
 width		#车宽
 height		#车宽
-frequently_route#常出没线路
 img_head	#头部照片
 img_back	#尾部照片
 img_left 	#左部照片
 img_right	#右部照片
+
+
+线路图，记录车主的运行线路(后期可以用来分析热门线路等)
+r_route
+-------------------------------------------------
+id		#线路id
+sareaid		#起始点
+fareaid		#终点
+
 
 地区表
 r_area
@@ -62,6 +75,9 @@ r_route_bill
 id		#记录id
 car_id		#车辆id
 user_id		#车主id(为什么要添加此项呢？车和车主是多对多关系，所以我们需要使用车和车主两个字段)
+car_type	#车辆类型(载客|载货)
+start_id	#起点id
+finish_id	#终点id
 start_area	#起点
 finish_area 	#终点
 start_datetime	#出发日期
